@@ -1,0 +1,165 @@
+body {
+            background-color: #f2f2f2;
+        }
+
+        .header {
+            background-color: #7BEFD4;
+            color: #fff;
+            padding: 10px;
+        }
+
+        .header img {
+            height: 50px;
+            width: auto;
+            margin-right: 10px;
+            display: inline-block;
+            margin-left: -30px;
+        }
+
+        .header .company-name {
+            font-family: 'Lora', serif;
+            color: #fff;
+            font-size: 1.5em;
+            text-transform: uppercase;
+            font-weight: bold;
+            text-shadow: 1px 1px 1px #222;
+            margin-top: 0;
+            margin-bottom: 0;
+            line-height: .75;
+        }
+
+        .nav-item a{
+            font-size: 1.3em;
+        }
+
+        .navbar-dark .navbar-nav .nav-link{
+            color: #393939;
+        }
+
+        .navbar-nav .nav-link{
+            text-align: center;
+        }
+
+        .welcome {
+            background-image: url("background-image.jpg");
+            opacity: 0.9;
+            background-size: cover;
+            color: #fff;
+            font-size: 1.5em;
+            padding: 100px 0;
+            text-align: center;
+            font-weight: bolder;
+        }
+
+        .welcome h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .welcome p {
+            font-size: 30px;
+            margin-bottom: 40px;
+            color: #FFFF99;
+            font-weight: bold;
+        }
+
+        h2{
+            text-align: center;
+            background-color: #98B5AC;
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        div p{
+            text-align: center;
+        }
+
+        div h3{
+            display: block;
+            padding: 5 px;
+            border: 1px solid black;
+            background-color: lightgray;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .segment {
+            margin-bottom: 10px;
+        }
+
+        .new-block{
+            display: block;
+            padding: 2px;
+            border: 2px solid black;
+            height: 300px;
+            overflow: auto;
+        }
+
+        .segment h3 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        .sub-segment {
+            list-style-type: disc;
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        .sub-segment-date {
+            font-size: 14px;
+            color: #888;
+            text-align: left;
+            margin-bottom: 5px;
+        }
+
+        .sub-segment-text {
+            height: 120px;
+            overflow: hidden;
+            color: #333;
+        }
+
+        .section {
+            padding: 50px 0;
+        }
+
+        span .block{
+            color: solid black;
+            text-decoration: none;           
+        }
+
+        footer div{
+            background-color: #3A3A3A;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            padding-bottom: 30px;
+        }
+
+        @media(max-width: 992px){
+            .nav-item a{
+            font-size: 1.3em;
+            border-bottom: 1px solid #393939;
+            padding-bottom: 5px;
+            }
+        }
+
+        @media(max-width: 768px){
+            .header .company-name {
+                font-family: 'Lora', serif;
+                color: #fff;
+                font-size: 1.3em;
+                text-transform: uppercase;
+                font-weight: bold;
+                text-shadow: 1px 1px 1px #222;
+                margin-top: 0;
+                margin-bottom: 0;
+                line-height: .75;
+            }
+        }
+
+        @media(max-width: 467px){
+            .header img {
+                display:none;
+            }
+        }
